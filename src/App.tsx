@@ -66,7 +66,7 @@ const App: React.FC = () => {
         <>
             <GlobalStyle />
             <Wrapper>
-                <h1>REACT QUIZ</h1>
+                <h1>KAOQUIZ</h1>
                 {gameOver || userAnswers.length === CONFIG.TOTAL_QUESTIONS ? (
                     <button className='start' onClick={startTrivia}>
                         Start
